@@ -17,6 +17,6 @@ $censor = "***";
     <!-- <p><?php echo $my_string ?></p> -->
     <p><?=$my_string ?></p>
     <h4>Text Length:<?= strlen($my_string) ?></h4>
-    <p><?php echo str_replace($bad_word, $censor, $my_string)?></p>
+    <p><?php echo str_ireplace($bad_word, $censor, $my_string)?></p>
 </body>
 </html>
